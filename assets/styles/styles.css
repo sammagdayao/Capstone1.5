@@ -1,0 +1,226 @@
+*{
+	
+margin: 0;
+	
+padding: 0;
+	
+box-sizing: border-box;
+	
+font-family: 'B612+Mono|EB+Garamond&display=swap';
+
+}
+
+body{
+	background-color: grey;
+}
+
+html {
+	
+scroll-behavior: smooth;
+
+}
+
+
+
+
+.main {
+	
+background-color: grey;
+
+
+
+}
+
+
+
+.banner {
+	
+height: 100vh;
+width: 100%;
+
+/*max-width: 100%*/
+	
+background-color: white;
+	
+z-index: 10;
+	
+position: relative;
+	
+background-image: url(https://www.wtn.net/sites/default/files/styles/seven-slideshow-6/public/seven-slideshow-images/MjUzMzMyMQ.jpeg?itok=Iwh3JHX7);
+	
+background-position: center;
+	
+background-size: cover;
+	
+background-attachment: fixed;
+
+	
+
+
+}
+
+
+
+.banner:hover ~ #back
+{
+	
+z-index: -100;
+
+}
+
+
+
+h1 {
+	
+letter-spacing: 2px;
+	
+margin-bottom: 10px;
+	
+color: rgba(97,203,217, 1);
+
+background-color: rgba(0,0,0, 0.10);
+	
+padding: 10px;
+	border-radius: 10px;
+	
+
+}
+
+
+
+
+.galleryimg
+{
+	
+width: 50%;
+	height: 50%;
+	
+background-image: url(https://www.wtn.net/sites/default/files/styles/seven-slideshow-6/public/seven-slideshow-images/MjUzMzMyMQ.jpeg?itok=Iwh3JHX7);
+
+}
+
+
+
+
+
+.box > p {
+	
+font-family: 'Lobster', cursive;
+	
+font-size:2px;
+
+color: yellow;
+	
+font-weight: bold;
+}
+
+
+
+.box {
+
+font-family: 'Righteous', cursive;
+font-size: 40px;
+text-align: center;
+	
+width: 50%;
+/*width: 100%;*/
+	
+padding: 50px;
+	
+position: Absolute;
+	
+top: 40%;
+	
+left: 22%;
+	
+transform: translate(-50%, -50%);
+
+}
+
+
+
+.box2
+{	
+	
+margin: 0 auto;
+}
+
+
+#back
+{
+	
+position: fixed;
+	
+bottom: 10%;
+	
+right: 10%;
+	
+z-index: 99;
+
+}
+
+
+
+ul > li:hover
+{
+	
+background-color: rgba(97, 203, 217, 3);
+	
+border: 3px solid #f2f2f2;
+	
+transition: 0.1s;
+
+}
+
+.banner,
+
+.Model,
+
+.Features,
+
+.Contact,
+
+
+.gallery {
+	
+padding: 30px;
+
+}
+
+
+
+#carousel-home
+{
+	
+/*height: 50%;*/
+width: 100%
+
+
+}
+
+
+#carousel-home img
+{
+	
+height: 65vh;
+
+}
+
+p {
+text-align: center;
+}
+
+.footer {
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+img{
+width: 600px;
+}
+/**/
